@@ -1,0 +1,9 @@
+
+
+{% extends "base.jin" %}
+
+{% block main %}
+
+    <h1>Welcome to the World!</h1>
+    <p>Today is: {{ today_date }}</p>
+{% endblock %}

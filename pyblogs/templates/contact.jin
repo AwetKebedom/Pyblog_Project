@@ -1,0 +1,8 @@
+{% extends "base.jin" %}
+
+{% block main %}
+<div class="content-section"></div>
+    <div class=""></div>
+
+
+{% endblock %}

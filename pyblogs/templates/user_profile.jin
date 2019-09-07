@@ -1,0 +1,15 @@
+{###################################################}
+{######                                       ######}
+{######   pyblog/templates/user_profile.jin   ###### }
+{######                                       ######}
+{###################################################}
+
+{% extends "base.jin" %}
+
+{% block main %}
+<h1> Profile:</h1><br>
+
+    <h3>Name: {{ user.username }}</h3>
+    <small> Email: {{ user.email }}</small>
+{% endblock %}
+

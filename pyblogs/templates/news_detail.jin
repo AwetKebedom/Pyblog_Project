@@ -1,0 +1,9 @@
+{% extends "base.jin" %}
+
+{% block main %}
+<h1> Details:</h1><br>
+
+    <h3>Ttile: {{ news.title }}</h3>
+    <small> Content: {{ news.content }}</small>
+{% endblock %}
+

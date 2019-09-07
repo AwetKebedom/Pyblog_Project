@@ -1,0 +1,10 @@
+{% extends "base.jin" %}
+
+{% block main %}
+<ol>
+    <h3>BREAKING NEWS:</h3>
+        {% for new in news %}
+            <a href="{{ url_for('news_fed', title=new.title) }}"><li>{{ new.title}} - {{ new.content}}</li></a>
+        {% endfor %}
+    </ol>
+{% endblock %}
